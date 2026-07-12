@@ -1,0 +1,12 @@
+Client                    Server
+------                    ------
+EHLO  ------------------>
+                     250-STARTTLS
+
+STARTTLS -------------->
+                     220 Ready to start TLS
+
+===== TLS Handshake =====
+
+EHLO ------------------>
+                     250 ...
