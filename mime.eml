@@ -1,0 +1,15 @@
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="KUBU123"
+
+--KUBU123
+Content-Type: text/plain
+
+Hello!
+
+--KUBU123
+Content-Type: image/png
+Content-Disposition: attachment; filename="logo.png"
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAA...
+--KUBU123--
