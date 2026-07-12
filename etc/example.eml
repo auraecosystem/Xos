@@ -1,0 +1,20 @@
+From: alice@example.com
+To: bob@example.com
+Subject: Report
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="BOUNDARY123"
+
+--BOUNDARY123
+Content-Type: text/plain; charset=UTF-8
+
+Hello Bob,
+
+Please find the report attached.
+
+--BOUNDARY123
+Content-Type: application/pdf
+Content-Disposition: attachment; filename="report.pdf"
+Content-Transfer-Encoding: base64
+
+JVBERi0xLjQKJ...
+--BOUNDARY123--
